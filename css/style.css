@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.logo-slogan{
+    font-size:12px;
+}
+.icon-color{
+    color: #fff;
+}
+.nav-item{
+    border-left:1px solid #fff;
+}
+header .nav-item:hover{
+    background-color: black;
+}
+header .nav-item{
+    border-left:0.7px solid #a2a2a3 !important;
+    padding:.25em .25em;
+}
+.login-link{
+    border-right:0.7px solid #a2a2a3 !important;
+}
+.navbar{
+    padding:0 !important;
+}
+/* banner-section */
+.banner-section{
+    background-image: url('../images/night_city_lights_605450.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:97vh;
+    color:#fff;
+}
+.banner-content p{
+    font-size:25px;
+}
+.banner-content h1{
+    font-size:40px;
+}
+.see-how-it-works-btn{
+    background-color: #09de29;
+    padding:10px;
+    border:none;
+    border-bottom:5px solid rgb(47, 182, 58);
+    border-radius: 2px;
+    width:158px;
+}
+.see-how-it-works-btn:hover{
+    background-color: #05c722;
+}
+.join-us-btn:hover{
+    background-color: #2a5ae0;
+}
+.join-us-btn{
+    background-color: #64aaec;
+    padding:10px;
+    border:none;
+    border-bottom:5px solid rgb(93, 107, 231);
+    border-radius: 2px;
+    width:118px;
+}
+.card{
+    cursor: pointer;
+}
+.card:hover .card-body{
+    color:goldenrod;
+}
+/* cards-section */
+.card-body-img{
+    height:80px;
+    width:80px;
+}
+.card .card-img-top{
+    height:200px;
+}
+/* news-letters-section */
+.news-letter-img{
+    height:100px;
+    width:100px;
+}
+/* features-section */
+.featured-img{
+    max-height:150px;
+    max-width:150px;
+}
+/* footer-section */
+footer{
+    background-color: #2f2f38;
+    height:auto;
+}
+footer h5{
+    color:#fff;
+    font-weight:bold;
+}
+footer ul{
+    list-style: none;
+}
+footer .nav-link{
+    color:#b7b9bd;
+}
+footer .nav-link:hover{
+    color:goldenrod;
+}
+footer .nav-link{
+    padding-left:0 !important;
+}
+.nav-item{
+    border-left:none !important;
+}
+.social-media-container i{
+    font-size:25px;
+    color:#fff;
+}
+.copy-right-container{
+    color:#b7b9bd;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px){
+    .featured-img{
+        height:250px;
+        width:250px;
+    }
+    .banner-content p{
+        font-size:16px;
+    }
+    .banner-content h1{
+        font-size:25px;
+    }
+}
